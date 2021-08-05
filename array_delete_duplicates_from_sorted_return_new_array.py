@@ -1,14 +1,15 @@
 """
-Find and delete all duplicated elements in sorted array
+Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new array.
+Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
 """
 
-# pythonic way
+# pythonic way - returning the modified array
 def delete_duplicates_pythonic(arr):
     result = list(set(arr))
     
     return result
 
-# without python tools
+# without python tools - simple deletion - returning modified array
 def delete_duplicates(arr):
     idx = 1
     for item in arr:

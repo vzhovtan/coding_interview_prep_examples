@@ -5,7 +5,7 @@ The task is to write a function that sorts the given array. The functions should
 """
 
 # Function to sort array 
-def sort_it(a, arr_size): 
+def part_it(a, arr_size): 
     lo = 0
     hi = arr_size - 1
     mid = 0
@@ -20,15 +20,8 @@ def sort_it(a, arr_size):
             a[mid], a[hi] = a[hi], a[mid]  
             hi = hi - 1
     return a 
-      
-# Function to print array 
-def printArray( a): 
-    for k in a: 
-        print(k)
-    
+        
 # driver code
 arr = [0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1] 
 arr_size = len(arr) 
-arr = sort_it(arr, arr_size) 
-print ("Array after partitioning :" + "\n")
-printArray(arr) 
+print(part_it(arr, arr_size))

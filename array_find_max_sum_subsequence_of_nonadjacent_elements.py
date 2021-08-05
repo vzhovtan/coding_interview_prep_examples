@@ -1,6 +1,5 @@
 """
-Given an array arr[] of size N and an integer K. Find the maximum for each and 
-every non-contiguous subarray of size K
+Given an array arr[]. Find the maximum for each and every non-contiguous subarray.
 
 A naive solution to this problem is to calculate the sum of all possible subsequences with no adjacent elements 
 and keep track of the subsequence with the maximum sum. 
