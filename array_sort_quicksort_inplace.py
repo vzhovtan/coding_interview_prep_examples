@@ -1,5 +1,5 @@
 """
-Quick sort - algo from Python Algorithms book by Magnus Lie Hetland
+Quick sort - example from Python Algorithms book by Magnus Lie Hetland
 """
 
 def partition(list, start, end):

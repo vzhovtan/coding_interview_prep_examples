@@ -26,6 +26,6 @@ def numDecodingsHelper(s, n):
         count += numDecodingsHelper(s, n - 2)  
     return count  
           
-# Driver program to test above function  
+# driver code  
 digits = "121"
-print("Count is ",numDecodings(digits))  
+print(numDecodings(digits))  

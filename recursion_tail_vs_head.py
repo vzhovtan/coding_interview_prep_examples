@@ -1,4 +1,4 @@
-#tail recursion
+#tail recursion - move
 def tail(n):
 	#base case
 	if n==0:

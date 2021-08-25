@@ -45,9 +45,3 @@ def findItem(num):
     return False
 
 print(findItem(5))
-
-
-
-
-
-
