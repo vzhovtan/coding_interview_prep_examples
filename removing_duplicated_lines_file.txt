@@ -1,0 +1,166 @@
+show arp-gmp trace all
+show arp-gmp config
+show arp-gmp routes
+show arp-gmp vrf
+show processes arp_gmp
+show system statistics component ipv4-arp
+show hsrp trace all
+show hsrp trace bulk
+show hsrp
+show hsrp detail
+show processes hsrp
+show hsrp idb
+show hsrp statistics
+show hsrp api-statistics
+show hsrp api-statistics detail
+show hsrp summary
+show hsrp bfd
+show ipv6 vrinfo
+show hsrp state history
+show hsrp status
+show route
+show rib tables
+show ipv4 interface brief
+show im history system location all
+show interfaces summary
+show interfaces brief
+show im dampening
+show im rules
+show platform
+show im status
+show im ihms database location all
+show im ihms missing location all
+show im ownerchaninfo location all
+show bfd client history
+show bfd summary private
+show bfd all session
+show bfd all
+show process bfd
+show install active
+show install which component ip-bfd
+show bfd lpts detail verbose
+show bfd all multipath
+show bfd all session detail
+show bfd bootstrap history
+show bfd gsp detail
+show mpls lsd forwarding application bfd detail
+show running-config bfd
+show running-config
+show arm conflicts
+show running-config
+show running-config
+show logging
+show version
+show im data brief
+show arp trace location 0/RSP0/CPU0
+show arp client trace all location 0/RSP0/CPU0
+show arp location 0/RSP0/CPU0
+show arp vrf all location 0/RSP0/CPU0
+show arp idb all location 0/RSP0/CPU0
+show arp traffic location 0/RSP0/CPU0
+show arp status location 0/RSP0/CPU0
+show processes arp location 0/RSP0/CPU0
+show arp resolution history location 0/RSP0/CPU0
+show arp api-stats location 0/RSP0/CPU0
+show arp api-stats detail all location 0/RSP0/CPU0
+show system statistics component ipv4-arp
+show arp adjacency history location 0/RSP0/CPU0
+show arp packet history location 0/RSP0/CPU0
+show arp thread location 0/RSP0/CPU0
+show im trace
+show netio trace all
+show fwd trace all
+show attribute trace
+show im database summary location 0/RSP0/CPU0
+show im registrations summary location 0/RSP0/CPU0
+show im database brief location 0/RSP0/CPU0
+show im resource-descriptions brief location 0/RSP0/CPU0
+show im history operations brief location 0/RSP0/CPU0
+show im clients brief location 0/RSP0/CPU0
+show im registrations all brief location 0/RSP0/CPU0
+show im statistics client brief location 0/RSP0/CPU0
+show im statistics server location 0/RSP0/CPU0
+show netio idb all brief
+show netio clients
+show packet-memory
+show packet clients
+show packet old summary
+show packet hssd
+show packet fsv
+show process blocked
+show processes ifmgr
+show processes netio
+show processes packet
+show shmwin im_db malloc-stats location 0/RSP0/CPU0
+show shmwin im_rd malloc-stats location 0/RSP0/CPU0
+show shmwin im_rules malloc-stats location 0/RSP0/CPU0
+show gsp groups name IM_GROUP location 0/RSP0/CPU0
+show im database verbose view owner location 0/RSP0/CPU0
+show im resource-descriptions verbose location 0/RSP0/CPU0
+show im statistics client detail location 0/RSP0/CPU0
+show im internals location 0/RSP0/CPU0
+show vicr trace
+show vicr info
+show loopback trace
+show interfaces edm trace
+show interfaces edm statistics
+show interfaces edm requests
+show processes intf_mgbl
+show processes loopback_caps_partner
+show processes vi_config_replicator
+show cef drop location 0/RSP0/CPU0
+show bfd index-mgrs location 0/RSP0/CPU0
+show bfd statistics private brief location 0/RSP0/CPU0
+show bfd bundles detail location 0/0/CPU0
+show bfd bundles detail location 0/1/CPU0
+show bfd bundles detail location 0/RSP0/CPU0
+show bfd bundles detail location 0/RSP1/CPU0
+show bfd bundles echo detail location 0/0/CPU0
+show bfd bundles echo detail location 0/1/CPU0
+show bfd bundles echo detail location 0/RSP0/CPU0
+show bfd bundles echo detail location 0/RSP1/CPU0
+show bfd trace location 0/0/CPU0
+show bfd trace location 0/1/CPU0
+show bfd trace location 0/RSP0/CPU0
+show bfd trace location 0/RSP1/CPU0
+show udp brief location 0/RSP0/CPU0
+show udp statistics pcb all location 0/RSP0/CPU0
+show bfd ha server detail location 0/RSP0/CPU0
+show bfd issu server detail location 0/RSP0/CPU0
+show bfd client history location 0/RSP0/CPU0
+show bfd session pending server location 0/RSP0/CPU0
+show bfd agents location 0/RSP0/CPU0
+show bfd lpts detail verbose location 33
+show process bfd location 0/RSP0/CPU0
+show spp graph location 0/RSP0/CPU0
+show spio platform client trace location 0/RSP0/CPU0
+show spio platform clib trace location 0/RSP0/CPU0
+show spp platform logged-contexts location 0/RSP0/CPU0
+show spio platform ifmgr-lib trace location 0/RSP0/CPU0
+show spio platform protocol all trace location 0/RSP0/CPU0
+show adjacency hardware trace location 0/RSP0/CPU0
+show spio platform ea trace location 0/RSP0/CPU0
+show spio platform offload client-lib trace location 0/RSP0/CPU0
+show spio platform offload lookup trace location 0/RSP0/CPU0
+show drops all location 0/RSP0/CPU0
+show spio platform pwhe-lib trace location 0/RSP0/CPU0
+show netio driver trace location 0/RSP0/CPU0
+show adjacency hardware bvi trace location 0/RSP0/CPU0
+show adjacency bvi-fia location 0/RSP0/CPU0
+show spio platform ma trace location 0/RSP0/CPU0
+show spio platform offload client-lib packet trace location 0/RSP0/CPU0
+show spp interface location 0/RSP0/CPU0
+show spp node-counters location 0/RSP0/CPU0
+show spp node location 0/RSP0/CPU0
+show spp sid stats location 0/RSP0/CPU0
+show spp buffer location 0/RSP0/CPU0
+show spp client punt status location 0/RSP0/CPU0
+show spp client detail location 0/RSP0/CPU0
+show netio drops location 0/RSP0/CPU0
+show spp packet-rate location 0/RSP0/CPU0
+show drops all ongoing location 0/RSP0/CPU0
+show controllers dmac pcds statistics location 0/RSP0/CPU0
+show controllers dmac device 0 statistics location 0/RSP0/CPU0
+show controllers dmac device 0 detail location 0/RSP0/CPU0
+show controllers dmac queue 0 statistics location 0/RSP0/CPU0
+show controllers dmac queue 0 detail location 0/RSP0/CPU0
