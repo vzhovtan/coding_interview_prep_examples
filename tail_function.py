@@ -6,7 +6,7 @@ def custom_tail(filename, N):
     tail = []
     with open(filename) as fd:
         for line in fd.readlines():
-            tail.append(line)
+            tail.append(line.replace("\n", ""))
             if len(tail) > N:
                 tail.pop(0)
 
